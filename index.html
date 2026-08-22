@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Homepage</title>
+
+<style>
+  body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #333;
+  }
+
+  header {
+    background: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+  }
+
+  section {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  h2 {
+    border-left: 5px solid #4a90e2;
+    padding-left: 10px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #eee;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>My Homepage</h1>
+  <p>ようこそ！ここは私のホームページです。</p>
+</header>
+
+<nav>
+  <a href="#profile">プロフィール</a>
+  <a href="#news">お知らせ</a>
+  <a href="#dl">配布物</a>
+</nav>
+
+<section id="profile">
+  <h2>プロフィール</h2>
+  <p>
+    名前：<br>
+    趣味：<br>
+    一言：
+  </p>
+
+  <h3>リンク</h3>
+  <ul>
+    <li><a href="https://www.nicovideo.jp/user/143524255" target="_blank">ニコニコ動画（マイページ）</a></li>
+    <li><a href="https://scratch.mit.edu/users/x88942731x" target="_blank">Scratch（プロフィール）</a></li>
+  </ul>
+</section>
+
+<section id="news">
+  <h2>お知らせ</h2>
+  <ul>
+    <li>2026/07/12 ホームページ公開</li>
+    <li>ここに更新情報を追加できます</li>
+  </ul>
+</section>
+
+<section id="dl">
+  <h2>配布物</h2>
+  <p>自作アプリのダウンロード一覧です。</p>
+
+    <li>
+      <strong>アプリ名2</strong><br>
+      説明：ここにアプリの説明を書く<br>
+      <a href="download/app2.zip" download>ZIP版ダウンロード</a>
+    </li>
+
+  <p>※ GitHub Pages の <code>download</code> フォルダにファイルを置けばDL可能になります。</p>
+</section>
+
+<footer>
+  © 2026 My Homepage
+</footer>
+
+</body>
+</html>
